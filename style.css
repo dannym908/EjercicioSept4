@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+     overflow-y: scroll; 
+}
+
+*{
+	font-family: 'Montserrat', bold;
+    font-weight: 700;
+}
+
+.contenido-centrado {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    color: brown;
+}
+
+.color-titulo{
+	color: green;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.img2{
+    max-width:30%;
+    height:auto;
+}
+
+.hr {
+    height: 30px;
+    width: 100%;
+   
+    background-color:green;
+  }
+.column {
+    float: left;
+    width: 33.33%;
+    
+}
+  
+ 
+ .row {
+    content: "";
+    clear: both;
+    display: table;
+}
